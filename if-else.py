@@ -1,7 +1,7 @@
 mark1 = int(input("Enter mark1: "))
 mark2 = int(input("Enter mark2: "))
 mark3 = int(input("Enter mark3: "))
-
+'''
 total = mark1 + mark2 + mark3
 maxmarks = 150
 percentage = (total / maxmarks) * 100
@@ -29,4 +29,38 @@ if num4 >= num1 and num4 >= num2 and num4 >= num3 and num4 >= num5:
 if num5 >= num1 and num5 >= num2 and num5 >= num3 and num5 >= num4:
     greatest = num5
 
-print("Greatest number is:", greatest)
+print("Greatest number is:", greatest)'''
+
+# program to accept three paper marks and check the maximum marks using nested if else:
+
+'''
+
+if mark1 > mark2:
+    if mark1 > mark3:
+        print("greatest is mark1")
+    else:
+        print("mark3 is the greatest")
+else:
+    if mark2 > mark3:
+         print("mark2 is the greatest")
+    else:
+        print("mark3 is greatest!")'''
+
+
+# assign grade
+'''total = mark1 + mark2 + mark3
+maxmarks = 150
+percentage = (total / maxmarks) * 100
+
+
+if percentage > 90:
+    print("A")
+elif percentage > 80:
+    print("B")
+elif percentage > 70:
+    print("D")
+elif percentage > 60:
+    print("E")
+else:
+    print("FAIL")'''
+
