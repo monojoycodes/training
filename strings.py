@@ -36,4 +36,7 @@ for i in name.lower():
     else:
         c+=1
 print("vowels: ", v, "\nconsonants: ", c, "\nTotal: ",v+c)
+
+st = ["Monojoy", "Swapnil"]
+print(st[:])
     

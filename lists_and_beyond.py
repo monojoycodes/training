@@ -79,3 +79,6 @@ newnumber = number
 
 ### If a value already exists in a memory then new address is not created!!!
 
+fruit_list1 = ['Apple', 'Berry', 'papaya', 'cherry']
+fruit_list2 = fruit_list1
+fruit_
