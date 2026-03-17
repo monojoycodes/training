@@ -79,6 +79,14 @@ newnumber = number
 
 ### If a value already exists in a memory then new address is not created!!!
 
-fruit_list1 = ['Apple', 'Berry', 'papaya', 'cherry']
-fruit_list2 = fruit_list1
-fruit_
+
+def f (i, values = []):
+    values.append(i)
+    print(values)
+
+f(1)
+f(2)
+f(3) 
+'''[1]
+    [1, 2]
+[1, 2, 3]'''
