@@ -31,3 +31,4 @@ print(my_dict)
 # remove pair
 my_dict.pop("mob")
 print(my_dict)
+

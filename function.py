@@ -51,3 +51,15 @@ def display_info(**kwargs):
         print(f"{key}: {value}")
 
 display_info(name="Eve", age=28, city="NYC")
+
+fruit = {}
+def addone(idx):
+    if idx in fruit:
+        fruit[idx] =+ 1
+    else:
+        fruit[idx] = 1
+addone("Apple")
+addone("banana")
+addone("apple")
+
+print(len(fruit))
